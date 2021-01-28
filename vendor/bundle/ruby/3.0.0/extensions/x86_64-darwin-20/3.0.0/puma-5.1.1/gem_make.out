@@ -1,0 +1,23 @@
+current directory: /Users/lichenyu/Desktop/rspec/rspec_app/vendor/bundle/ruby/3.0.0/gems/puma-5.1.1/ext/puma_http11
+/Users/lichenyu/.rvm/rubies/ruby-3.0.0/bin/ruby -I /Users/lichenyu/.rvm/rubies/ruby-3.0.0/lib/ruby/3.0.0 -r ./siteconf20210127-71935-9m5eju.rb extconf.rb
+checking for BIO_read() in -lcrypto... yes
+checking for SSL_CTX_new() in -lssl... yes
+checking for openssl/bio.h... yes
+checking for DTLS_method() in openssl/ssl.h... yes
+checking for TLS_server_method() in openssl/ssl.h... yes
+checking for SSL_CTX_set_min_proto_version(NULL, 0) in openssl/ssl.h... yes
+creating Makefile
+
+current directory: /Users/lichenyu/Desktop/rspec/rspec_app/vendor/bundle/ruby/3.0.0/gems/puma-5.1.1/ext/puma_http11
+make "DESTDIR=" clean
+
+current directory: /Users/lichenyu/Desktop/rspec/rspec_app/vendor/bundle/ruby/3.0.0/gems/puma-5.1.1/ext/puma_http11
+make "DESTDIR="
+compiling http11_parser.c
+compiling mini_ssl.c
+compiling puma_http11.c
+linking shared-object puma/puma_http11.bundle
+
+current directory: /Users/lichenyu/Desktop/rspec/rspec_app/vendor/bundle/ruby/3.0.0/gems/puma-5.1.1/ext/puma_http11
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 puma_http11.bundle ./.gem.20210127-71935-90lx47/puma
